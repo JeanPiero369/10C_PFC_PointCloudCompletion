@@ -1,0 +1,127 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+.conda/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# Environment / secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDEs
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Testing / coverage
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Type checking / linters
+# =========================
+
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# =========================
+# Machine Learning
+# =========================
+
+# Checkpoints / trained models
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+
+# Experiment outputs
+outputs/
+runs/
+wandb/
+mlruns/
+
+# TensorBoard
+.tensorboard/
+
+# =========================
+# Data
+# =========================
+
+# Ignore datasets by default
+data/
+datasets/
+
+# If you want to version empty directories:
+# !data/.gitkeep
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+datasets/
+flow/
+diagramas/
+
+scripts/
+src/
+notebooks/
